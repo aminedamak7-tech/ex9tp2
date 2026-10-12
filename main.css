@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+h1::before{
+    content: "@ ";
+    color: red;
+}
+
+h1::after{
+    content: " @ Un pas vers l'avenir !";
+    color: red;
+}
+
+p::first-letter{
+    font-size:32px;
+    color: darkorange;
+    font-weight: bold;
+}
+
+p::first-line{
+    text-transform: uppercase;
+    color:darkgray;
+}
